@@ -1,0 +1,22 @@
+[project]
+name = "nedo-seminars-season2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Kifumi Numata", email = "kifumi@jp.ibm.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "jupyter>=1.1.1",
+    "qiskit-aer>=0.17.2",
+    "qiskit-ibm-runtime>=0.50.0",
+    "qiskit[visualization]>=2.5.2",
+]
+
+[project.scripts]
+nedo-seminars-season2 = "nedo_seminars_season2:main"
+
+[build-system]
+requires = ["uv_build>=0.12.20,<0.13.0"]
+build-backend = "uv_build"
