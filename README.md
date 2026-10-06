@@ -1,2 +1,8 @@
-# nedo-seminars-season2
-Open-source Qiskit educational material translated into Japanese for NEDO Challenge Season-two participants
+# NEDO量子懸賞金事業 シーズン2 IBM Quantum ハンズオンセミナー
+
+## [第1回 基礎習得編](./20261007/)
+
+## 第2回 基礎・中級編
+
+## 第3回 応用編
+
